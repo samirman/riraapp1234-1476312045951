@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: riraapp1234
+  host: riraapp1234
+  disk_quota: 1024M
+  services:
+  - riraapp1234-cloudantNoSQLDB
